@@ -12,7 +12,7 @@ const WINDOW_WIDTH = Layout.window.width
 const CARD_SPACING = Spacing.small
 const NUM_COLUMNS = 2
 
-const POSTER_SOURCE_WIDTH = 200
+const POSTER_SOURCE_WIDTH = 500
 const IMAGE_WIDTH =
   (WINDOW_WIDTH - CARD_SPACING * (NUM_COLUMNS + 1)) / NUM_COLUMNS
 const IMAGE_HEIGHT = IMAGE_WIDTH * 1.5
