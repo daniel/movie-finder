@@ -1,5 +1,6 @@
 import {
   Roboto_300Light,
+  Roboto_400Regular,
   Roboto_500Medium,
   Roboto_700Bold,
 } from '@expo-google-fonts/roboto'
@@ -10,9 +11,10 @@ import { useEffect, useState } from 'react'
 
 const customFonts = {
   ...FontAwesome.font,
+  Roboto_300Light,
+  Roboto_400Regular,
   Roboto_500Medium,
   Roboto_700Bold,
-  Roboto_300Light,
 }
 
 export default function useCachedResources() {
