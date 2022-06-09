@@ -32,7 +32,7 @@ export function MoviesScreen({ navigation }: RootTabScreenProps<'Movies'>) {
         <FlatList
           data={results}
           renderItem={renderItem}
-          numColumns={3}
+          numColumns={2}
           style={styles.list}
           showsVerticalScrollIndicator={false}
           ListEmptyComponent={<NoResults query={query} />}

@@ -10,7 +10,7 @@ type Props = {
 
 const WINDOW_WIDTH = Layout.window.width
 const CARD_SPACING = Spacing.small
-const NUM_COLUMNS = 3
+const NUM_COLUMNS = 2
 
 const POSTER_SOURCE_WIDTH = 200
 const IMAGE_WIDTH =
