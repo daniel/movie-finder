@@ -66,5 +66,6 @@ const styles = StyleSheet.create({
   },
   list: {
     marginTop: Spacing.medium,
+    marginBottom: -(Spacing.large + Spacing.small),
   },
 })
